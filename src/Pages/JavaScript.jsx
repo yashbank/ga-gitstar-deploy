@@ -82,12 +82,12 @@ const JavaScript = () => {
             <button
               style={{
                 margin: "1%",
-                borderColor: page == el ? "red" : "black",
+                borderColor: +page === el ? "red" : "black",
                 padding: "2% 3%",
-                backgroundColor: page == el ? "yellow" : "grey",
+                backgroundColor: +page === el ? "yellow" : "grey",
                 fontSize: "14px",
                 borderRadius: "5px 20px 5px",
-                color: page == el ? "black" : "white",
+                color: +page === el ? "black" : "white",
                 fontStyle: "bolder",
               }}
               onClick={(e) => {
